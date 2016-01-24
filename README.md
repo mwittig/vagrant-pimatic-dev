@@ -1,12 +1,15 @@
 # vagrant-pimatic-dev
 `vagrant-pimatic-dev` creates and configures a portable, reproducible and lightweight virtual development environment for pimatic. It enables cross-platform development of pimatic and pimatic plugins.
 
+This is a fork https://github.com/baswenneker/vagrant-pimatic-dev.git 
+which I tweaked to setup node v4.x and the pimatic v0.9 branch for testing.
+
 ## Installation
 First, make sure you have the latest version of [Vagrant](http://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads) installed.
 
 Then, do: 
 ```bash
-$ git clone https://github.com/baswenneker/vagrant-pimatic-dev.git
+$ git clone https://github.com/mwittig/vagrant-pimatic-dev.git --branch pimatic-0.9x
 $ cd vagrant-pimatic-dev
 $ vagrant up
 ```

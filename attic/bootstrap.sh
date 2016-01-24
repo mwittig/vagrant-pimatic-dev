@@ -10,7 +10,8 @@ sudo apt-get install -y nodejs build-essential git
 sudo chmod 777 /vagrant/
 cd /vagrant/
 mkdir pimatic-dev
-npm install pimatic --prefix pimatic-dev
+#npm install pimatic --prefix pimatic-dev
+curl -s https://raw.githubusercontent.com/pimatic/pimatic/development/install/install-git | sudo bash /dev/stdin v0.9.x
 
 ## Copy the default config to the pimatic-dev folder
 cd pimatic-dev
